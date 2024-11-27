@@ -1,3 +1,4 @@
-venv/
+.venv/
 build/
 database-data/
+__pycache__/

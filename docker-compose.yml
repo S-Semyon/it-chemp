@@ -3,9 +3,10 @@ services:
     image: "postgres"
     container_name: "postgress_db"
     environment:
-      - "POSTGRES_USER": "flet_app"
-      - "POSTGRES_PASSWORD" : "kupcake"
-      - "POSTGRES_DB" : "project"
+      POSTGRES_USER: "flet_app"
+      POSTGRES_PASSWORD: "kupcake"
+      POSTGRES_DB: "project"
+      PSGRES_ROOT: "toor"
     ports:
       - 5432:5432
     volumes:
